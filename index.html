@@ -5,13 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efebf2;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 520px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #801bde;
+    border-radius: 25px;
+}
+.base {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    float:none;
+}
+.base h4 {
+    font-size: 26px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px #170000;
+    background: white;
+    font-size: 34px;
+    color: navy;
+}
+
+    </style>
 </head>
 <body>
     <body>
     <div class="container">
         <form>
             <div class="base">
-                <div class="enter"><h4>Age Calculator</h4></div>
+                <div class="enter" id="head"><h4>Age Calculator</h4></div>
                 <div class="block">
                     <p class="title">Date</p>
                     <input
