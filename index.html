@@ -45,13 +45,69 @@
     font-weight: normal;
     margin-top: 0px;
     box-shadow: 0px 2px #170000;
-    background: white;
+    background: rgb(153, 100, 233);
     font-size: 34px;
     color: navy;
 }
-
+.title {
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 0.5;
+    letter-spacing: 0.5px;
+    word-spacing: 2.7px;
+    color: #dae2ea;
+}
+input[type="text"] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #e8d7d7;
+    padding: 12px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    color: #010c13;
+    font-size: 17px;
+}
+input[type="text"]:focus {
+    background-color: #fdfdfd;
+    border: 2px solid rgb(236, 228, 212);
+    outline: none;
+}
+input[type="button"] {
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #0761b6;
+    color: #9a99f6;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 16px;
+}
+input[type="button"]:hover {
+    background-color: #e4f2ff;
+}
+#age {
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: navy;
+}
     </style>
-</head>
+  
 <body>
     <body>
     <div class="container">
@@ -99,6 +155,7 @@
                 <div class="enter">
                     <input
                         type="button"
+                        id="sub"
                         name="submit"
                         value="Submit"
                         onclick="age()"
